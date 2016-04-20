@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/ic_home_black_48dp"
+            android:title="Inicio"/>
+        <item
+            android:id="@+id/nav_favoritos"
+            android:icon="@drawable/ic_favorite_black_48dp"
+            android:title="Favoritos"/>
+        <item
+            android:id="@+id/nav_recomendados"
+            android:icon="@drawable/ic_stars_black_48dp"
+            android:title="Recomendados"/>
+    </group>
+
+</menu>

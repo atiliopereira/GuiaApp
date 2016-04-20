@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.dissoi.guiaapp2.EmpresaActivity"
+    tools:showIn="@layout/activity_empresa">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/linearLayoutEmpresaDescripcion"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/textPrimary"
+                android:text="Descripción"
+                android:id="@+id/textView"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:id="@+id/textViewEmpresaDescripcion"/>
+
+            <View android:id="@+id/DividerDescripcion"
+                android:layout_height="1dp"
+                android:layout_width="fill_parent"
+                android:background="#B6B6B6"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutEmpresaTelefono1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButtonTelefono1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/ic_phone_black_24dp"
+                android:tint="@color/icons"
+                android:backgroundTint="@android:color/transparent"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:text=""
+                    android:id="@+id/textViewEmpresaTelefono1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <View android:id="@+id/Divider4"
+                    android:layout_height="1dp"
+                    android:layout_width="match_parent"
+                    android:background="#B6B6B6"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutEmpresaTelefono2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButtonTelefono2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/ic_phone_black_24dp"
+                android:tint="@color/icons"
+                android:backgroundTint="@android:color/transparent"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:text=""
+                    android:id="@+id/textViewEmpresaTelefono2"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <View android:id="@+id/Divider5"
+                    android:layout_height="1dp"
+                    android:layout_width="match_parent"
+                    android:background="#B6B6B6"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutEmpresaTelefono3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageButtonTelefono3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/ic_phone_black_24dp"
+                    android:tint="@color/icons"
+                    android:backgroundTint="@android:color/transparent"/>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:text=""
+                        android:id="@+id/textViewEmpresaTelefono3"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"/>
+
+                    <View android:id="@+id/Divider6"
+                        android:layout_height="1dp"
+                        android:layout_width="match_parent"
+                        android:background="#B6B6B6"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="20dp"/>
+
+                </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutEmpresaTelefono4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButtonTelefono4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/ic_phone_black_24dp"
+                android:tint="@color/icons"
+                android:backgroundTint="@android:color/transparent"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:text=""
+                    android:id="@+id/textViewEmpresaTelefono4"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <View android:id="@+id/Divider7"
+                    android:layout_height="1dp"
+                    android:layout_width="match_parent"
+                    android:background="#B6B6B6"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutEmpresaTelefono5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButtonTelefono5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/ic_phone_black_24dp"
+                android:tint="@color/icons"
+                android:backgroundTint="@android:color/transparent"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:text=""
+                    android:id="@+id/textViewEmpresaTelefono5"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <View android:id="@+id/Divider8"
+                    android:layout_height="1dp"
+                    android:layout_width="match_parent"
+                    android:background="#B6B6B6"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutEmpresaCelular1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButtonCelular1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/ic_phone_black_24dp"
+                android:tint="@color/icons"
+                android:backgroundTint="@android:color/transparent"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:text=""
+                    android:id="@+id/textViewEmpresaCelular1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <View android:id="@+id/DividerC14"
+                    android:layout_height="1dp"
+                    android:layout_width="match_parent"
+                    android:background="#B6B6B6"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutEmpresaCelular2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButtonCelular2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/ic_phone_black_24dp"
+                android:tint="@color/icons"
+                android:backgroundTint="@android:color/transparent"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:text=""
+                    android:id="@+id/textViewEmpresaCelular2"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <View android:id="@+id/DividerC2"
+                    android:layout_height="1dp"
+                    android:layout_width="match_parent"
+                    android:background="#B6B6B6"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutEmpresaCelular3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButtonCelular3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/ic_phone_black_24dp"
+                android:tint="@color/icons"
+                android:backgroundTint="@android:color/transparent"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:text=""
+                    android:id="@+id/textViewEmpresaCelular3"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <View android:id="@+id/DividerC3"
+                    android:layout_height="1dp"
+                    android:layout_width="match_parent"
+                    android:background="#B6B6B6"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutEmpresaCelular4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButtonCelular4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/ic_phone_black_24dp"
+                android:tint="@color/icons"
+                android:backgroundTint="@android:color/transparent"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:text=""
+                    android:id="@+id/textViewEmpresaCelular4"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <View android:id="@+id/DividerC4"
+                    android:layout_height="1dp"
+                    android:layout_width="match_parent"
+                    android:background="#B6B6B6"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutEmpresaCelular5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButtonCelular5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/ic_phone_black_24dp"
+                android:tint="@color/icons"
+                android:backgroundTint="@android:color/transparent"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:text=""
+                    android:id="@+id/textViewEmpresaCelular5"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <View android:id="@+id/Dividerc5"
+                    android:layout_height="1dp"
+                    android:layout_width="match_parent"
+                    android:background="#B6B6B6"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutEmpresaWhatsapp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButtonWhatsapp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/ic_whatsapp"
+                android:tint="@color/icons"
+                android:backgroundTint="@android:color/transparent"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:text=""
+                    android:id="@+id/textViewEmpresaWhatsapp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <View android:id="@+id/DividerW"
+                    android:layout_height="1dp"
+                    android:layout_width="match_parent"
+                    android:background="#B6B6B6"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutEmpresaDireccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButtonUBicacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/ic_place_black_24dp"
+                android:tint="@color/icons"
+                android:backgroundTint="@android:color/transparent"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:text=""
+                    android:id="@+id/textViewEmpresaDireccion"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <View android:id="@+id/Divider3"
+                    android:layout_height="1dp"
+                    android:layout_width="match_parent"
+                    android:background="#B6B6B6"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutEmpresaHorario"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/textPrimary"
+                android:text="Horario de atención"
+                android:id="@+id/textView2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:id="@+id/textViewEmpresaHorario"/>
+
+            <View android:id="@+id/Divider1"
+                android:layout_height="1dp"
+                android:layout_width="fill_parent"
+                android:background="#B6B6B6"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutEmpresaEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButtonEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/ic_email_black_24dp"
+                android:tint="@color/icons"
+                android:backgroundTint="@android:color/transparent"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:text=""
+                    android:id="@+id/textViewEmpresaEmail"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <View android:id="@+id/DividerEmail"
+                    android:layout_height="1dp"
+                    android:layout_width="match_parent"
+                    android:background="#B6B6B6"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutEmpresaTiempoDeRespuesta"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/textPrimary"
+                android:text="Tiempo de respuesta"
+                android:id="@+id/textViewTituloRespuesta"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:text=""
+                android:id="@+id/textViewEmpresaTiempoDeRespuesta"/>
+
+            <View android:id="@+id/DividerTiempo"
+                android:layout_height="1dp"
+                android:layout_width="fill_parent"
+                android:background="#B6B6B6"
+                android:layout_marginTop="5dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutEmpresaWeb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButtonWeb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/ic_public_black_24dp"
+                android:tint="@color/icons"
+                android:backgroundTint="@android:color/transparent"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:text=""
+                    android:id="@+id/textViewEmpresaWeb"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <View android:id="@+id/DividerWeb"
+                    android:layout_height="1dp"
+                    android:layout_width="match_parent"
+                    android:background="#B6B6B6"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutEmpresaFacebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButtonFacebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/icon_facebook"
+                android:tint="@color/icons"
+                android:backgroundTint="@android:color/transparent"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:text=""
+                    android:id="@+id/textViewEmpresaFacebook"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <View android:id="@+id/DividerFacebook"
+                    android:layout_height="1dp"
+                    android:layout_width="match_parent"
+                    android:background="#B6B6B6"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/linearLayoutEmpresaInstagram"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Instagram"
+                android:id="@+id/textViewTituloInstagram"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:id="@+id/textViewEmpresaInstagram"
+                android:autoLink="web|email"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutEmpresaLineas"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="@color/textPrimary"
+                android:text="Buses cercanos"
+                android:id="@+id/textView3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:text=""
+                android:id="@+id/textViewEmpresaLineas"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
